@@ -28,7 +28,7 @@ header {
 
 .pagination {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
@@ -66,3 +66,10 @@ header {
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
 }
+
+.pokemon img {
+  width: 200px;
+  height: 200px;
+}
+
+
