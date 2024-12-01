@@ -30,7 +30,7 @@ const displayPokemon = async (pokemon) => {
         app.innerHTML = 'No se encontraron Pokémon';
         return;
     }
-    pokemon.forEach(async (item) => { //item es cada pokemon
+    pokemon.forEach(async (item) => { //item es cada pokemon con su url
         const response = await fetch(item.url);
         const data = await response.json();
         const pokemonDiv = document.createElement('div');
